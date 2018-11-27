@@ -76,3 +76,24 @@ article p{
     grid-area: 2 / 3 / 8 / 13;
     column-count: 2;
 }
+#required-courses{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 0 130px 0 130px;
+    
+}
+
+.top{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 50vw;
+}
+
+.bot{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
