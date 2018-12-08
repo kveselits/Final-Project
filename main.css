@@ -75,12 +75,12 @@ section div {
 }
 
 .reverse div {
-    grid-area: 2 / 4 / 3 / 9;
+    grid-area: 2 / 5 / 3 / 9;
     align-self: center;
 }
 
 h2 {
-    font-size: 100px;
+    font-size: 150px;
     color: #F15C6A;
     text-align: left;
     margin: 0;
@@ -181,10 +181,6 @@ footer {
     color: black;
 }
 
-.reverse .staff{
-    grid-area: 2 / 7 / 3 / 14;
-}
-
 section .blue-window{
     grid-area: 2 / 7 / 3 / 15;
 }
@@ -195,7 +191,11 @@ section .blue-window{
     grid-area: 2 / 2 / 3 / 8;
 }
 
-.staff img{
+#staff-reverse{
+    grid-area: 2 / 7 / 3 / 14;
+}
+
+section .staff img{
     width: 720px;
     height: 960px;
 }
